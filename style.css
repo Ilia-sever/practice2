@@ -1,0 +1,23 @@
+	form {
+		background-color: #F2C10D;
+		width:200px;
+	}
+	form legend 
+	{
+		margin: 0px auto;
+	}
+	form input {
+		margin: 5px 10px 5px 10px;
+		border-radius: 6px;
+		width:180px;
+		font-style: italic;
+	}
+	
+	form input[type="submit"] {
+		margin: 5px 10px 5px 95px;
+		border-radius: 6px;
+		background-color: white;
+		font-style: italic;
+		color: grey;
+		width: 100px;
+	}

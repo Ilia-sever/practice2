@@ -1,0 +1,29 @@
+<html>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<head>
+		<title>Практическая №2</title>
+	</head>
+	<body>
+		<header>
+		</header>
+		<section>
+		<form>
+		<legend>Регистрация</legend>
+		<input type="text" placeholder="Имя" pattern="[0-9A-Za-zа-яА-ЯЁё]{2,14}" required />
+		<input type="text" placeholder="Фамилия" pattern="[A-Za-zа-яА-ЯЁё]{4,14}" required/>
+		<input type="text" placeholder="Отчество" pattern="[A-Za-zа-яА-ЯЁё]{4,14}" required/>
+		<input type="date" placeholder="Дата рождения" min="1900-01-01" max="2013-12-31" required/>
+		<input type="email" placeholder="E-mail" required/>
+		<input type="tel" placeholder="Телефон" pattern="\d+" required/>
+		<input type="text" placeholder="Логин" pattern="(?=.*[A-Za-z]{6,})(?=.*\d{2,}).{8,}" required/>
+		<input type="password" placeholder="Пароль" pattern="(?=.*[A-Z]{1,})(?=.*\W{2,})(?!.*[А-Яа-яЁё]).{7,18}" required />
+		<input type="submit" value="Отправить"/>
+		</form>
+		</section>
+		<footer>
+		</footer>
+	</body>
+</html>
+
+
